@@ -70,3 +70,33 @@ body {
     cursor: pointer;
 }
 
+.green-circles {
+    position: absolute;
+    top: 56%;
+    left: 33.5%;
+    transform: translateY(-50%);
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    background-color: #019f55;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.important {
+    text-align: right;
+}
